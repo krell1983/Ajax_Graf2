@@ -1,0 +1,83 @@
+/*Global*/
+html, body { 
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+  font-size: 12px; }
+
+h1 {
+  color: #638FB4; }
+
+.WebPage {
+  max-width: 800px;
+  margin: auto; }
+
+.Graf_Text {
+  padding: 1px 2px; }
+
+.Graf_Box {
+  background-color: #E5E7EC;
+  width: 800px;
+  overflow: hidden;
+  border: solid 1px #bbb;
+  position: relative;
+  height: 256px;
+  box-shadow: inset 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
+  .Graf_Box .Graf {
+    background-color: rgba(53, 103, 141, 0.5);
+    width: 28px;
+    margin: 0px 0px 0px 10px;
+    z-index: 100;
+    position: relative;
+    bottom: 0px;
+    display: inline-block;
+    height: 0px;
+    transition: ease all 0.5s;
+    border: solid 1px black;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.15); }
+
+.connection {
+  color: #555;
+  padding: 10px;
+  font-size: 12px; }
+  .connection .green {
+    font-weight: bold;
+    color: #3ea400; }
+  .connection .yelow {
+    font-weight: bold;
+    color: #bed400; }
+  .connection .orange {
+    font-weight: bold;
+    color: #ff6c00; }
+  .connection .red {
+    font-weight: bold;
+    color: #bb0000; }
+  .connection b {
+    color: black; }
+  .connection .line {
+    overflow: hidden;
+    margin-top: 10px;
+    border-bottom: solid 1px #ccc; }
+    .connection .line .box.left {
+      float: left;
+      padding: 2px; }
+    .connection .line .box.right {
+      float: right;
+      padding: 0px; }
+
+.Graf_Box_Grafs {
+  position: absolute;
+  bottom: -5px;
+  margin-left: 15px; }
+
+.Graf_BoxBack_Ground_Box {
+  position: absolute;
+  width: 100%; }
+  .Graf_BoxBack_Ground_Box .ROW {
+    border-bottom: solid 1px #fff;
+    width: 100%;
+    height: 25px;
+    font-size: 8px;
+    color: #000000; }
+
+/*# sourceMappingURL=style.css.map */
