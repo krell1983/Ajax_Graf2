@@ -1,3 +1,3 @@
 <?php 
-echo(mt_rand(10,100));
+    echo(mt_rand(10,100));
 ?>
